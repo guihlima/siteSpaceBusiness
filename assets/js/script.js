@@ -8,3 +8,11 @@ window.addEventListener('scroll', function() {
       desiredElement.classList.remove('changeStyle'); // remove classe "changeColor"
     }
 });
+
+
+// Fechar menu quando deslizar tela
+const navbarToggle = document.querySelector(".navbar-collapse")
+
+window.onscroll = ()=>{
+    navbarToggle.classList.remove('show')
+}
