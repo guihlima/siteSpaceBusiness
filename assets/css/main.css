@@ -1,0 +1,39 @@
+
+
+
+.img-brand{
+    width: 10rem;
+}
+
+section{
+    padding-top: 5em;
+}
+
+
+#section-home{
+    background-image: url("../img/banner.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+    padding-top: 20rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+}
+
+/* .section-heading{
+    position: relative;
+}
+
+.section-heading::after{
+    content: "";
+    position: absolute;
+    right: 40%;
+    bottom: 0;
+    width: 20%;
+    height: 3px;
+    background-color: #174580;
+} */
